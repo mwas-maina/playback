@@ -1,0 +1,38 @@
+.navbar {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user {
+  display: flex;
+  &__email,
+  &__name {
+    margin-right: 1rem;
+  }
+  &__name {
+    height: 2rem;
+    width: 2rem;
+    background-color: #81ecec;
+    border-radius: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }
+}
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    height: 4rem;
+  }
+}
+.power {
+  &__icon {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+}
