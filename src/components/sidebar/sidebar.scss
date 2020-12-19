@@ -11,6 +11,10 @@
     height: 2rem;
     width: 2rem;
     color: rgba(31, 30, 30, 0.692);
+
+    &--active {
+      color: #ff6b81;
+    }
   }
 }
 .itemlist {

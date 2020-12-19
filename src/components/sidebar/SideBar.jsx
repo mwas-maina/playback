@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./sidebar.scss";
 import {
   BsFillCameraVideoFill,
@@ -31,7 +31,10 @@ const SideBar = () => {
         <BsSubtract className="sidebar__icon" />
       </div>
       <div>
-        <BsInboxesFill className="sidebar__icon" id="tool" />
+        <BsInboxesFill
+          className="sidebar__icon sidebar__icon--active"
+          id="tool"
+        />
         <Tooltip placement="right" target="tool" placement="right">
           <div className="itemlist">
             <li className="itemlist__items">Category page</li>

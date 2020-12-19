@@ -26,8 +26,8 @@ const CustomModal = (props) => {
             <div className="product-names">
               <h3 className="heading__small--link">Product name</h3>
               <h3 className="heading__small--list">Hands free door opener</h3>
-              <h3 className="heading__small--list">Hands free door opener</h3>
-              <h3 className="heading__small--list">Hands free door opener</h3>
+              <h3 className="heading__small--list">Fitness legging</h3>
+              <h3 className="heading__small--list">Kafka clothings</h3>
             </div>
             <div className="product-actions">
               <h3 className="heading__small--link">Action</h3>
