@@ -1,6 +1,30 @@
 .sidebar {
-  width: 10vw;
-  height: 100vh;
-  border-right: 1px solid #eee;
-  background-color: #eee;
+  width: 7rem;
+  height: 89.5vh;
+  border-right: 1px solid rgb(223, 218, 218);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+    color: rgba(31, 30, 30, 0.692);
+  }
+}
+.itemlist {
+  display: flex;
+  flex-direction: column;
+  &__items {
+    margin: 0 auto 0.5rem auto;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    text-align: start;
+    padding: 0.3rem 2.3rem;
+    transition: all 0.4s ease;
+    &:hover {
+      color: red;
+    }
+  }
 }

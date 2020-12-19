@@ -1,0 +1,22 @@
+.addModal {
+  top: 31%;
+  transform: translateY(-50%);
+  padding: 2rem 0;
+}
+.product-add {
+  display: flex;
+  justify-content: space-between;
+}
+.product-names {
+}
+#product-add-btn {
+  font-size: 0.7rem;
+  padding: 0.1rem;
+  &:not(:last-child) {
+    margin-bottom: 0.4rem;
+  }
+}
+.product-actions {
+  display: flex;
+  flex-direction: column;
+}

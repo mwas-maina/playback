@@ -1,0 +1,8 @@
+#bt {
+  border-radius: 4rem;
+  border: 1px solid red;
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}

@@ -1,0 +1,11 @@
+a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
+ul,
+li {
+  list-style-type: none;
+}
+body {
+  font-family: arial;
+}

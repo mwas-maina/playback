@@ -1,0 +1,19 @@
+.category {
+  background-color: #fff;
+  padding: 1rem 1rem;
+  width: 100%;
+}
+
+.category-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+  align-items: center;
+}
+.actions-icons {
+  display: flex;
+  &__icon {
+    margin-right: 0.8rem;
+    color: red;
+  }
+}

@@ -2,10 +2,24 @@
   &__small {
     font-size: 1rem;
     font-weight: 300;
+    &--link {
+      font-size: 0.9rem;
+      color: #f368e0;
+    }
+    &--list {
+      font-size: 0.9rem;
+
+      &:not(:last-child) {
+        margin-bottom: 0.8rem;
+      }
+    }
   }
   &__medium {
     font-size: 1.4rem;
     font-weight: 700;
+    &--categories {
+      color: #ff6b81;
+    }
   }
   &__large {
     font-size: 1.7rem;
