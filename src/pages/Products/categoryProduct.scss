@@ -5,3 +5,12 @@
 .addModal {
   position: absolute;
 }
+.category-heading {
+  @media only screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: column;
+    & > div {
+      margin-top: 1rem;
+    }
+  }
+}

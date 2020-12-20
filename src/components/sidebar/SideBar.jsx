@@ -11,6 +11,7 @@ import {
   BsGrid3X3GapFill,
 } from "react-icons/bs";
 import Tooltip from "../tooltip/Tooltip";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
@@ -27,7 +28,7 @@ const SideBar = () => {
       <div>
         <BsLayoutSidebar className="sidebar__icon" />
       </div>
-      <div className="bs">
+      <div>
         <BsSubtract className="sidebar__icon" />
       </div>
       <div>
@@ -37,9 +38,21 @@ const SideBar = () => {
         />
         <Tooltip placement="right" target="tool" placement="right">
           <div className="itemlist">
-            <li className="itemlist__items">Category page</li>
-            <li className="itemlist__items">Products page</li>
-            <li className="itemlist__items">Linesheets</li>
+            <li className="itemlist__items">
+              <Link to="/" className="link-to">
+                Category page
+              </Link>
+            </li>
+            <li className="itemlist__items">
+              <Link to="/category-products" className="link-to">
+                Products page
+              </Link>
+            </li>
+            <li className="itemlist__items">
+              <Link to="/" className="link-to">
+                Products page
+              </Link>
+            </li>
           </div>
         </Tooltip>
       </div>

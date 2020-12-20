@@ -1,8 +1,8 @@
 .tool .tooltip-inner {
-  background-color: #fff;
-  color: #000;
-  box-shadow: 0 0.3rem 0.3rem rgba(#000, 0.3);
-  border: 1px solid rgba(#000, 0.3);
+  background-color: var(--color-white-primary);
+  color: var(--color-dark-primary);
+  box-shadow: 0 0.3rem 0.3rem rgba(#000, 0.2);
+  border: 1px solid rgba(#000, 0.2);
 }
 .tool .tooltip-arrow {
   color: #fff;
@@ -10,13 +10,10 @@
 
 .tool .tooltip.show {
   opacity: 1;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 .bs-tooltip-auto[x-placement^="right"] span.arrow::before,
 .bs-tooltip-right .arrow::before {
-  border-right-color: rgb(119, 109, 109);
+  border-right-color: rgb(218, 205, 205);
   border-right-width: 1.3rem;
-}
-.bs {
-  padding-right: 1rem;
 }

@@ -1,6 +1,46 @@
+/* BASIC CSS RESET */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 630px) {
+  html {
+    font-size: 85%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  html {
+    font-size: 82%;
+  }
+}
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* COLOR VARIABLES */
+:root {
+  --color-primary-light: #ff3366;
+  --color-primary: rgba(255, 0, 0, 0.966);
+  --color-white-primary: #fff;
+  --color-dark-primary: #000;
+  --color-white-secondary: #eee;
+}
+/* CUSTOM CSS RESET */
+
 a {
   text-decoration: none !important;
-  color: #fff !important;
+  color: #fff;
 }
 ul,
 li {

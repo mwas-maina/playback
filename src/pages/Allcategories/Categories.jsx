@@ -19,21 +19,23 @@ function Categories() {
       </div>
       <div>
         <CustomJumbotron>
-          <Col md="3" sm="12">
+          <Col md="3" sm="6">
             <h5 className="heading__small">Category name</h5>
             <h6 className="heading__small--link">Category Name</h6>
           </Col>
-          <Col md="3" sm="12">
+          <Col md="3" sm="6">
             <h5 className="heading__small">Category page</h5>
             <Link to="/category-products">
-              <h6 className="heading__small--link">visit page</h6>
+              <h6 className="heading__small--link">
+                <u>visit page</u>
+              </h6>
             </Link>
           </Col>
-          <Col md="3" sm="12">
+          <Col md="3" sm="6">
             <h5 className="heading__small">Products</h5>
             <h6 className="heading__small--link">76</h6>
           </Col>
-          <Col md="3" sm="12">
+          <Col md="3" sm="6">
             <h5 className="heading__small">Actions</h5>
             <div className="actions-icons">
               <BsPencilSquare className="actions-icons__icon" />
