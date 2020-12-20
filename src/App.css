@@ -19,7 +19,7 @@ html {
 }
 @media only screen and (max-width: 575px) {
   html {
-    font-size: 82%;
+    font-size: 80%;
   }
 }
 @media only screen and (max-width: 350px) {
