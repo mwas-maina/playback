@@ -4,6 +4,7 @@
   padding: 2rem 0;
   width: 100%;
   position: absolute;
+  border-radius: 0.5rem;
   @media only screen and (max-width: 400px) {
     left: 0;
     top: 10%;
@@ -12,6 +13,7 @@
 .product-add {
   display: flex;
   justify-content: space-between;
+  padding: 2rem;
 }
 .product-names {
 }
