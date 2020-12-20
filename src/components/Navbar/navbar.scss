@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     flex-direction: column;
     padding: 1.2rem 0.6rem !important;
     box-shadow: 0 0.1rem 0.3rem rgba(#000, 0.3);
@@ -12,7 +12,7 @@
 }
 .user {
   display: flex;
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     justify-content: space-between;
     width: 100%;
   }
@@ -29,7 +29,7 @@
     justify-content: center;
     align-items: center;
     color: var(--color-dark-primary);
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 500px) {
       margin-left: 11rem;
     }
   }
