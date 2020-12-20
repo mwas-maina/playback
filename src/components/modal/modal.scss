@@ -3,11 +3,11 @@
   left: 33%;
   padding: 2rem 0;
   width: 100%;
-  position: absolute;
   border-radius: 0.5rem;
   @media only screen and (max-width: 400px) {
     left: -1%;
     top: 10%;
+    width: 90%;
   }
 }
 .product-add {
